@@ -28,7 +28,7 @@ DOCUMENTATION = '''
 module: zabbix_host
 short_description: Zabbix host creates/updates/deletes
 description:
-   - This module allows you to create, modify and delete Zabbix host entries and associated group and template data.
+   - This module allows you to create, modify and delete Zabbix host entries and associated group and template data. You need to install zabbix-api :  sudo apt install python-pip; pip install zabbix-api 
 version_added: "2.0"
 author:
     - "(@cove)"
